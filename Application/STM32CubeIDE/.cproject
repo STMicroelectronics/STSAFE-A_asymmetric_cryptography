@@ -38,8 +38,6 @@
 									<listOptionValue builtIn="false" value="../../../"/>
 									<listOptionValue builtIn="false" value="../../../Middleware/STSELib"/>
 									<listOptionValue builtIn="false" value="../../../Middleware/STM32_Cryptographic/include"/>
-									<listOptionValue builtIn="false" value="../../../Middleware/STM32_Cryptographic/legacy_v3/include"/>
-									<listOptionValue builtIn="false" value="../../../Middleware/STM32_Cryptographic/legacy_v3/src"/>
 									<listOptionValue builtIn="false" value="../../../Platform"/>
 									<listOptionValue builtIn="false" value="../../../Platform/STSELib"/>
 									<listOptionValue builtIn="false" value="../../../Platform/Core/CMSIS/Include"/>
@@ -84,8 +82,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Platform" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="Core/CMSIS/Device/ST/STM32L4xx/Source/iar|Core/CMSIS/Device/ST/STM32L4xx/Source/arm" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Platform"/>
+						<entry excluding="Platform/Core/CMSIS/Device/ST/STM32L4xx/Source/arm|Platform/Core/CMSIS/Device/ST/STM32L4xx/Source/iar|Middleware/STM32_Cryptographic/legacy_v3" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -171,8 +168,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Platform" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="Core/CMSIS/Device/ST/STM32L4xx/Source/iar|Core/CMSIS/Device/ST/STM32L4xx/Source/arm" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Platform"/>
+						<entry excluding="Platform/Core/CMSIS/Device/ST/STM32L4xx/Source/arm|Platform/Core/CMSIS/Device/ST/STM32L4xx/Source/iar|Middleware/STM32_Cryptographic/legacy_v3" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
