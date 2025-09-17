@@ -1,6 +1,6 @@
 
 # STSAFE-A Asymmetric cryptography
-This project illustrates how to use asymmetric cryptography through STSAFE-A Secure Element using STMicroelectronics Secure Element Library to perform signature verification by STSAFE-A Secure Element.
+This project illustrates how to use asymmetric cryptography through STSAFE-A Secure Element using STMicroelectronics Secure Element Library to perform signature verification by STSAFE-A Secure Element.<br>
 When loaded on the target MCU platform, the project generates new key pair through STSAFE-A slot 1.
 
 ```mermaid

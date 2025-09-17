@@ -118,7 +118,7 @@ int main(void) {
     if (stse_ret == STSE_OK) {
         printf("\n\n\r - stse_generate_ecc_key_pair : success");
     } else {
-        printf("\n\n\r ## stse_generate_ecc_key_pair : 0x%04X", stse_ret);
+        printf("\n\n\r ## stse_generate_ecc_key_pair ERROR : 0x%04X", stse_ret);
         while (1)
             ;
     }
@@ -135,7 +135,7 @@ int main(void) {
     if (stse_ret == STSE_OK) {
         printf("\n\n\r - stse_ecc_generate_signature : success");
     } else {
-        printf("\n\n\r - stse_ecc_generate_signature : 0x%04X", stse_ret);
+        printf("\n\n\r - stse_ecc_generate_signature ERROR : 0x%04X", stse_ret);
         while (1)
             ;
     }
@@ -147,10 +147,10 @@ int main(void) {
     if (stse_ret == STSE_OK) {
         printf(PRINT_GREEN "\n\n\r - stse_platform_ecc_verify : signature validated");
     } else {
-        printf(PRINT_RED "\n\n\r - stse_platform_ecc_verify : 0x%04X (invalid signature)", stse_ret);
-        while (1)
-            ;
+        printf(PRINT_RED "\n\n\r - stse_platform_ecc_verify ERROR : 0x%04X (invalid signature)", stse_ret);
     }
+
+    printf(PRINT_RESET "\n\r\n\r*#*# STMICROELECTRONICS #*#*\n\r");
 
     while (1)
         ;
